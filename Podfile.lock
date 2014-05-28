@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.2.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.4):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.4)
+  - AFNetworking/Security (2.2.4)
+  - AFNetworking/Serialization (2.2.4)
+  - AFNetworking/UIKit (2.2.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - FMDB (2.3):
+    - FMDB/standard
+  - FMDB/common (2.3)
+  - FMDB/standard (2.3):
+    - FMDB/common
+  - IAPHelper (1.0.7)
+  - JSONKit (1.5pre)
+  - Reachability (3.1.1)
+  - RegexKitLite (4.0)
+  - SDWebImage (3.6):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.6)
+  - SVProgressHUD (1.0)
+  - SVPullToRefresh (0.4.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.2.4)
+  - FMDB (~> 2.3)
+  - IAPHelper
+  - JSONKit (~> 1.4)
+  - Reachability (~> 3.1.1)
+  - RegexKitLite (~> 4.0)
+  - SDWebImage (~> 3.6)
+  - SVProgressHUD (~> 1.0)
+  - SVPullToRefresh
+
+SPEC CHECKSUMS:
+  AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
+  FMDB: 31ec26773c7f7b7890a6038235a1f2bbd933a7cb
+  IAPHelper: cc05be5303b034a6a92dbe58f1be94efeacf619d
+  JSONKit: efef3bbd3372ff33f96b9c6f34cf4fe18e74ab69
+  Reachability: 8e9635e3cb4f98e7f825e51147f677ecc694d0e7
+  RegexKitLite: 761b4944f23cb8fe20697b2e47be0689fd832c09
+  SDWebImage: c6989652c1cdf27cbdf3f56957e2030f825af5bc
+  SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
+  SVPullToRefresh: d5161ebc833a38b465364412e5e307ca80bbb190
+
+COCOAPODS: 0.32.1
