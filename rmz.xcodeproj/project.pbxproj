@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		71D2C552E6E84AF8A134C39C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A61B213FB4E47FCB80076CE /* libPods.a */; };
+		C0BC5A7B19370571004A2075 /* WKKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BC5A7919370571004A2075 /* WKKViewController.m */; };
+		C0BC5A7F19370770004A2075 /* CameraImageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BC5A7E19370770004A2075 /* CameraImageHelper.m */; };
+		C0BC5A8119370924004A2075 /* WKKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0BC5A8019370924004A2075 /* WKKViewController.xib */; };
+		C0BC5A84193712C3004A2075 /* ZHCameraVideoHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BC5A83193712C3004A2075 /* ZHCameraVideoHelper.m */; };
+		C0BC5A871937184A004A2075 /* VideoViewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BC5A861937184A004A2075 /* VideoViewcontroller.m */; };
+		C0BC5A8919371862004A2075 /* VideoViewcontroller.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0BC5A8819371862004A2075 /* VideoViewcontroller.xib */; };
 		F4306D6418EC719E00C43C23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4306D6318EC719E00C43C23 /* Foundation.framework */; };
 		F4306D6618EC719E00C43C23 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4306D6518EC719E00C43C23 /* CoreGraphics.framework */; };
 		F4306D6818EC719E00C43C23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4306D6718EC719E00C43C23 /* UIKit.framework */; };
@@ -109,6 +115,16 @@
 
 /* Begin PBXFileReference section */
 		3A61B213FB4E47FCB80076CE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BC5A7819370571004A2075 /* WKKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKKViewController.h; sourceTree = "<group>"; };
+		C0BC5A7919370571004A2075 /* WKKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKKViewController.m; sourceTree = "<group>"; };
+		C0BC5A7D19370770004A2075 /* CameraImageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraImageHelper.h; sourceTree = "<group>"; };
+		C0BC5A7E19370770004A2075 /* CameraImageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraImageHelper.m; sourceTree = "<group>"; };
+		C0BC5A8019370924004A2075 /* WKKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKKViewController.xib; sourceTree = "<group>"; };
+		C0BC5A82193712C3004A2075 /* ZHCameraVideoHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHCameraVideoHelper.h; sourceTree = "<group>"; };
+		C0BC5A83193712C3004A2075 /* ZHCameraVideoHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHCameraVideoHelper.m; sourceTree = "<group>"; };
+		C0BC5A851937184A004A2075 /* VideoViewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewcontroller.h; sourceTree = "<group>"; };
+		C0BC5A861937184A004A2075 /* VideoViewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewcontroller.m; sourceTree = "<group>"; };
+		C0BC5A8819371862004A2075 /* VideoViewcontroller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoViewcontroller.xib; sourceTree = "<group>"; };
 		E0A75D2030CF4016890B57FF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		F4306D6018EC719E00C43C23 /* rmz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rmz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4306D6318EC719E00C43C23 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -515,6 +531,16 @@
 		F4F978BB19308F5A00F7FE81 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C0BC5A7D19370770004A2075 /* CameraImageHelper.h */,
+				C0BC5A7E19370770004A2075 /* CameraImageHelper.m */,
+				C0BC5A7819370571004A2075 /* WKKViewController.h */,
+				C0BC5A7919370571004A2075 /* WKKViewController.m */,
+				C0BC5A8019370924004A2075 /* WKKViewController.xib */,
+				C0BC5A82193712C3004A2075 /* ZHCameraVideoHelper.h */,
+				C0BC5A83193712C3004A2075 /* ZHCameraVideoHelper.m */,
+				C0BC5A851937184A004A2075 /* VideoViewcontroller.h */,
+				C0BC5A861937184A004A2075 /* VideoViewcontroller.m */,
+				C0BC5A8819371862004A2075 /* VideoViewcontroller.xib */,
 				F4F978BC19308F5A00F7FE81 /* AccessCell.h */,
 				F4F978BD19308F5A00F7FE81 /* AccessCell.m */,
 				F4F978BE19308F5A00F7FE81 /* AccessCell.xib */,
@@ -649,7 +675,7 @@
 				ORGANIZATIONNAME = "zeng hui";
 				TargetAttributes = {
 					F4306D5F18EC719E00C43C23 = {
-						DevelopmentTeam = RT3BB3MP9J;
+						DevelopmentTeam = 9P837Q5PSM;
 					};
 					F4306D8018EC719E00C43C23 = {
 						TestTargetID = F4306D5F18EC719E00C43C23;
@@ -686,6 +712,7 @@
 				F4F9791D19308F5B00F7FE81 /* CaseCell.xib in Resources */,
 				F4F9791F19308F5B00F7FE81 /* DesginerCell.xib in Resources */,
 				F4F9796E1930DA1F00F7FE81 /* ZHViewController_35.xib in Resources */,
+				C0BC5A8919371862004A2075 /* VideoViewcontroller.xib in Resources */,
 				F4F9790019308F5B00F7FE81 /* photo6.png in Resources */,
 				F4F978FC19308F5B00F7FE81 /* photo2.png in Resources */,
 				F4F9796C1930D64B00F7FE81 /* ZHViewController_4.xib in Resources */,
@@ -695,6 +722,7 @@
 				F4306D7C18EC719E00C43C23 /* Images.xcassets in Resources */,
 				F4F978FB19308F5B00F7FE81 /* photo1.png in Resources */,
 				F4F978FE19308F5B00F7FE81 /* photo4.png in Resources */,
+				C0BC5A8119370924004A2075 /* WKKViewController.xib in Resources */,
 				F4F978FF19308F5B00F7FE81 /* photo5.png in Resources */,
 				F4306D6E18EC719E00C43C23 /* InfoPlist.strings in Resources */,
 				F4F9792119308F5B00F7FE81 /* DesginerCellV.xib in Resources */,
@@ -753,14 +781,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BC5A7B19370571004A2075 /* WKKViewController.m in Sources */,
 				F4F9793019308F5B00F7FE81 /* IISideController.m in Sources */,
 				F4F9792F19308F5B00F7FE81 /* TypeTableView.m in Sources */,
 				F4F9791219308F5B00F7FE81 /* ZHFileCache.m in Sources */,
 				F4F9790319308F5B00F7FE81 /* User.m in Sources */,
 				F4F9792719308F5B00F7FE81 /* PdfPopoverController.m in Sources */,
+				C0BC5A7F19370770004A2075 /* CameraImageHelper.m in Sources */,
 				F4F9791019308F5B00F7FE81 /* ZHDBControl.m in Sources */,
 				F4F9792219308F5B00F7FE81 /* FlipBoardNavigationController.m in Sources */,
 				F4F9792819308F5B00F7FE81 /* ProductCCell.m in Sources */,
+				C0BC5A871937184A004A2075 /* VideoViewcontroller.m in Sources */,
 				F4306D7A18EC719E00C43C23 /* ZHViewController.m in Sources */,
 				F4F9792B19308F5B00F7FE81 /* ShareView.m in Sources */,
 				F4F9791319308F5B00F7FE81 /* ZHNetWorkFunction.m in Sources */,
@@ -805,6 +836,7 @@
 				F4F9792C19308F5B00F7FE81 /* TableView.m in Sources */,
 				F4F9791919308F5B00F7FE81 /* BaseTableViewController.m in Sources */,
 				F4F9792319308F5B00F7FE81 /* ImageView.m in Sources */,
+				C0BC5A84193712C3004A2075 /* ZHCameraVideoHelper.m in Sources */,
 				F4F9791E19308F5B00F7FE81 /* DesginerCell.m in Sources */,
 				F4F9790C19308F5B00F7FE81 /* PendingOperations.m in Sources */,
 				F45BD8711931CD4500A97F10 /* ZHLikeViewController.m in Sources */,
@@ -927,8 +959,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer: hui zeng (3ED55WY2DM)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hui zeng (3ED55WY2DM)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rmz/rmz-Prefix.pch";
 				INFOPLIST_FILE = "rmz/rmz-Info.plist";
@@ -939,7 +971,7 @@
 					"$(PROJECT_DIR)/rmz/Classes/SDKExport",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "31270376-CE6A-4563-B44E-C15156E68E37";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -951,7 +983,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hui zeng (3ED55WY2DM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rmz/rmz-Prefix.pch";
 				INFOPLIST_FILE = "rmz/rmz-Info.plist";
@@ -962,7 +994,7 @@
 					"$(PROJECT_DIR)/rmz/Classes/SDKExport",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "474D46E8-E15E-4BE4-98CB-3271EB0A5346";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
