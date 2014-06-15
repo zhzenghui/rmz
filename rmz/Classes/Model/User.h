@@ -20,6 +20,7 @@
 
 @property(nonatomic, assign) NSInteger ID;
 @property(nonatomic, retain) NSString *name;
+@property(nonatomic, retain) NSString *auth_token;
 @property(nonatomic, retain) NSString *account;
 @property(nonatomic, assign) NSInteger dept_id;
 @property(nonatomic, retain) NSString *role;

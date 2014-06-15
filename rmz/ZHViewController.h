@@ -19,7 +19,9 @@
 @property (weak, nonatomic) IBOutlet UIView *tabBarView;
 @property (strong, nonatomic)  UIView *baseView;
 
-- (IBAction)openSetting:(id)sender;
 
+
+
+- (IBAction)openSetting:(id)sender;
 - (IBAction)openViewController:(UIButton *)sender;
 @end

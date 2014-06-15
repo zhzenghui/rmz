@@ -8,6 +8,8 @@
 
 #import "ZHAppDelegate.h"
 #import "ZHViewController.h"
+#import "ZHLoginViewController.h"
+
 
 @implementation ZHAppDelegate
 
@@ -18,6 +20,22 @@
     
     
     _user = [[User alloc] init];
+    
+    NSString *currentUser = [Cookie getCookie:KCurrentUser];
+    
+    if (currentUser) {
+        
+        NSDictionary *dict = [Cookie getCookie:currentUser];
+        
+        _user.name = dict[@"name"];
+        _user.auth_token = dict[@"auth_token"];
+        
+#ifdef  DEBUG
+        DLog(@"%@", dict);
+#endif
+        
+    }
+
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     ZHViewController *vc = [[ZHViewController alloc] initWithNibName:@"ZHViewController_35" bundle:nil];
@@ -52,6 +70,28 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    
+
+    NSString *currentUser = [Cookie getCookie:KCurrentUser];
+    
+    if ( ! currentUser) {
+        
+        
+        
+        
+        ZHLoginViewController *login = [[ZHLoginViewController alloc] initWithNibName:@"ZHLoginViewController" bundle:nil];
+        
+        
+        [self.window.rootViewController presentViewController:login animated:NO completion:^{
+            
+        }];
+        
+        
+    }
+    
+    
+    
+    
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

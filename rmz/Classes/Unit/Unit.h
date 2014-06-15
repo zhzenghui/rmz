@@ -36,7 +36,7 @@ typedef enum {
 #define KCurrentProjectName @"OrientParkson"
 #define KCurrentUser @"currentUser"
 #define KCurrentUser_version @"version"
-
+#define Kauth_token @"auth_token"
 
 #define db_name @"data.sqlite"
 
@@ -106,10 +106,10 @@ typedef enum {
 #define KisHaro [KCurrentProjectName isEqualToString:KProjectNameHaro]
 #define KisDyrs [KCurrentProjectName isEqualToString:KProjectNameDyrs]
 
-#define SharedAppDelegate ((MMAppDelegate *)[[UIApplication sharedApplication] delegate])
+#define SharedAppDelegate ((ZHAppDelegate *)[[UIApplication sharedApplication] delegate])
 #define SharedApplication [UIApplication sharedApplication]
 
-#define SharedAppUser ((MMAppDelegate *)[[UIApplication sharedApplication] delegate]).user
+#define SharedAppUser ((ZHAppDelegate *)[[UIApplication sharedApplication] delegate]).user
 
 #define M_PI 3.14159265358979323846264338327950288
 #define DEGREES_TO_RADIANS(d) (d * M_PI / 180)
@@ -129,17 +129,21 @@ typedef enum {
 #define KLongDuration 1
 
 //#define KHomeUrl @"http://223.4.147.79:8080"
-#define KHomeUrl @"http://115.28.182.9:8080/"
+//#define KHomeUrl @"http://115.28.182.9:8080/"
 
 
 
+#ifdef DEBUG
+#define KHomeApiUrl @"http://192.168.1.105:3000/api/v1/"
+#else
+#define KHomeApiUrl @"http://115.28.228.254:8080/api/v1/"
+#endif
 
-//#ifdef DEBUG
-//#define KHomeUrl @"http://192.168.1.113:8080/"
-//#else
-//#define KHomeUrl @"http://115.28.228.254:8080/"
-//#endif
-
+#ifdef DEBUG
+#define KHomeUrl @"http://192.168.1.105:3000/"
+#else
+#define KHomeUrl @"http://115.28.228.254:8080/"
+#endif
 
 
 

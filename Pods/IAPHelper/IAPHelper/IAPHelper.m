@@ -29,6 +29,8 @@
 - (id)initWithProductIdentifiers:(NSSet *)productIdentifiers {
     if ((self = [super init])) {
         
+        
+
         // Store product identifiers
         _productIdentifiers = productIdentifiers;
         

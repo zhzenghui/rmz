@@ -28,6 +28,9 @@
 		F4306D8D18EC719E00C43C23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4306D8B18EC719E00C43C23 /* InfoPlist.strings */; };
 		F4306D8F18EC719E00C43C23 /* rmzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4306D8E18EC719E00C43C23 /* rmzTests.m */; };
 		F4306D9918EC839E00C43C23 /* logo140.png in Resources */ = {isa = PBXBuildFile; fileRef = F4306D9818EC839E00C43C23 /* logo140.png */; };
+		F44284BE194611D800BFEC9F /* ZHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F44284BC194611D800BFEC9F /* ZHLoginViewController.m */; };
+		F44284BF194611D800BFEC9F /* ZHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F44284BD194611D800BFEC9F /* ZHLoginViewController.xib */; };
+		F448948A193786DE000B7A64 /* InAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4489489193786DE000B7A64 /* InAppViewController.m */; };
 		F45BD86E1931CD2F00A97F10 /* ZHUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45BD86D1931CD2F00A97F10 /* ZHUserViewController.m */; };
 		F45BD8711931CD4500A97F10 /* ZHLikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45BD8701931CD4500A97F10 /* ZHLikeViewController.m */; };
 		F45BD8741931CD9E00A97F10 /* ZHFollowersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45BD8731931CD9E00A97F10 /* ZHFollowersViewController.m */; };
@@ -36,6 +39,8 @@
 		F45BD87E1931D27F00A97F10 /* ZHExploreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45BD87D1931D27F00A97F10 /* ZHExploreViewController.m */; };
 		F45BD8811931D2AB00A97F10 /* ZHMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45BD8801931D2AB00A97F10 /* ZHMessageViewController.m */; };
 		F45BD8841931D59800A97F10 /* ZHTakePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F45BD8831931D59800A97F10 /* ZHTakePhotoViewController.m */; };
+		F464B15B194DD7A00053F9EC /* ZHTimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F464B159194DD7A00053F9EC /* ZHTimeLineCell.m */; };
+		F464B15C194DD7A00053F9EC /* ZHTimeLineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F464B15A194DD7A00053F9EC /* ZHTimeLineCell.xib */; };
 		F4F978F919308F5B00F7FE81 /* data.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F4F9787F19308F5A00F7FE81 /* data.sqlite */; };
 		F4F978FA19308F5B00F7FE81 /* data副本.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = F4F9788019308F5A00F7FE81 /* data副本.sqlite */; };
 		F4F978FB19308F5B00F7FE81 /* photo1.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F9788219308F5A00F7FE81 /* photo1.png */; };
@@ -145,6 +150,11 @@
 		F4306D8C18EC719E00C43C23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4306D8E18EC719E00C43C23 /* rmzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rmzTests.m; sourceTree = "<group>"; };
 		F4306D9818EC839E00C43C23 /* logo140.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo140.png; path = ../logo140.png; sourceTree = "<group>"; };
+		F44284BB194611D800BFEC9F /* ZHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHLoginViewController.h; sourceTree = "<group>"; };
+		F44284BC194611D800BFEC9F /* ZHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHLoginViewController.m; sourceTree = "<group>"; };
+		F44284BD194611D800BFEC9F /* ZHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHLoginViewController.xib; sourceTree = "<group>"; };
+		F4489488193786DE000B7A64 /* InAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppViewController.h; sourceTree = "<group>"; };
+		F4489489193786DE000B7A64 /* InAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppViewController.m; sourceTree = "<group>"; };
 		F45BD86C1931CD2F00A97F10 /* ZHUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHUserViewController.h; sourceTree = "<group>"; };
 		F45BD86D1931CD2F00A97F10 /* ZHUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHUserViewController.m; sourceTree = "<group>"; };
 		F45BD86F1931CD4500A97F10 /* ZHLikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHLikeViewController.h; sourceTree = "<group>"; };
@@ -161,6 +171,9 @@
 		F45BD8801931D2AB00A97F10 /* ZHMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHMessageViewController.m; sourceTree = "<group>"; };
 		F45BD8821931D59800A97F10 /* ZHTakePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTakePhotoViewController.h; sourceTree = "<group>"; };
 		F45BD8831931D59800A97F10 /* ZHTakePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTakePhotoViewController.m; sourceTree = "<group>"; };
+		F464B158194DD7A00053F9EC /* ZHTimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTimeLineCell.h; sourceTree = "<group>"; };
+		F464B159194DD7A00053F9EC /* ZHTimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTimeLineCell.m; sourceTree = "<group>"; };
+		F464B15A194DD7A00053F9EC /* ZHTimeLineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZHTimeLineCell.xib; sourceTree = "<group>"; };
 		F4F9787F19308F5A00F7FE81 /* data.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = data.sqlite; sourceTree = "<group>"; };
 		F4F9788019308F5A00F7FE81 /* data副本.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "data副本.sqlite"; sourceTree = "<group>"; };
 		F4F9788219308F5A00F7FE81 /* photo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo1.png; sourceTree = "<group>"; };
@@ -347,6 +360,9 @@
 				F4F9787D19308F5A00F7FE81 /* Classes */,
 				F4306D7218EC719E00C43C23 /* ZHAppDelegate.h */,
 				F4306D7318EC719E00C43C23 /* ZHAppDelegate.m */,
+				F44284BB194611D800BFEC9F /* ZHLoginViewController.h */,
+				F44284BC194611D800BFEC9F /* ZHLoginViewController.m */,
+				F44284BD194611D800BFEC9F /* ZHLoginViewController.xib */,
 				F4306D7818EC719E00C43C23 /* ZHViewController.h */,
 				F4306D7918EC719E00C43C23 /* ZHViewController.m */,
 				F4F9796D1930DA1F00F7FE81 /* ZHViewController_35.xib */,
@@ -571,6 +587,9 @@
 				F4F978D719308F5A00F7FE81 /* NavigationViewController.m */,
 				F4F978D819308F5A00F7FE81 /* NewsCell.h */,
 				F4F978D919308F5A00F7FE81 /* NewsCell.m */,
+				F464B158194DD7A00053F9EC /* ZHTimeLineCell.h */,
+				F464B159194DD7A00053F9EC /* ZHTimeLineCell.m */,
+				F464B15A194DD7A00053F9EC /* ZHTimeLineCell.xib */,
 				F4F978DA19308F5A00F7FE81 /* PdfPopoverController.h */,
 				F4F978DB19308F5A00F7FE81 /* PdfPopoverController.m */,
 				F4F978DC19308F5A00F7FE81 /* ProductCCell.h */,
@@ -594,6 +613,8 @@
 				F4F978F419308F5B00F7FE81 /* ZHManageCell.m */,
 				F4F978F519308F5B00F7FE81 /* ZHNavigationViewController.h */,
 				F4F978F619308F5B00F7FE81 /* ZHNavigationViewController.m */,
+				F4489488193786DE000B7A64 /* InAppViewController.h */,
+				F4489489193786DE000B7A64 /* InAppViewController.m */,
 				F4F978F719308F5B00F7FE81 /* ZHView.h */,
 				F4F978F819308F5B00F7FE81 /* ZHView.m */,
 			);
@@ -675,7 +696,7 @@
 				ORGANIZATIONNAME = "zeng hui";
 				TargetAttributes = {
 					F4306D5F18EC719E00C43C23 = {
-						DevelopmentTeam = 9P837Q5PSM;
+						DevelopmentTeam = RT3BB3MP9J;
 					};
 					F4306D8018EC719E00C43C23 = {
 						TestTargetID = F4306D5F18EC719E00C43C23;
@@ -728,6 +749,8 @@
 				F4F9792119308F5B00F7FE81 /* DesginerCellV.xib in Resources */,
 				F4F9790219308F5B00F7FE81 /* WeiboSDK.bundle in Resources */,
 				F4F9791719308F5B00F7FE81 /* AccessCell.xib in Resources */,
+				F464B15C194DD7A00053F9EC /* ZHTimeLineCell.xib in Resources */,
+				F44284BF194611D800BFEC9F /* ZHLoginViewController.xib in Resources */,
 				F4F978FD19308F5B00F7FE81 /* photo3.png in Resources */,
 				F4F978F919308F5B00F7FE81 /* data.sqlite in Resources */,
 			);
@@ -792,6 +815,7 @@
 				F4F9792219308F5B00F7FE81 /* FlipBoardNavigationController.m in Sources */,
 				F4F9792819308F5B00F7FE81 /* ProductCCell.m in Sources */,
 				C0BC5A871937184A004A2075 /* VideoViewcontroller.m in Sources */,
+				F44284BE194611D800BFEC9F /* ZHLoginViewController.m in Sources */,
 				F4306D7A18EC719E00C43C23 /* ZHViewController.m in Sources */,
 				F4F9792B19308F5B00F7FE81 /* ShareView.m in Sources */,
 				F4F9791319308F5B00F7FE81 /* ZHNetWorkFunction.m in Sources */,
@@ -808,6 +832,7 @@
 				F4F9791A19308F5B00F7FE81 /* BaseViewController.m in Sources */,
 				F4F9792D19308F5B00F7FE81 /* TableViewController.m in Sources */,
 				F4F9791619308F5B00F7FE81 /* AccessCell.m in Sources */,
+				F448948A193786DE000B7A64 /* InAppViewController.m in Sources */,
 				F4306D7018EC719E00C43C23 /* main.m in Sources */,
 				F4F9792E19308F5B00F7FE81 /* Theme.m in Sources */,
 				F45BD8811931D2AB00A97F10 /* ZHMessageViewController.m in Sources */,
@@ -815,6 +840,7 @@
 				F4F9790E19308F5B00F7FE81 /* UIButton+Utilities.m in Sources */,
 				F45BD8741931CD9E00A97F10 /* ZHFollowersViewController.m in Sources */,
 				F45BD8841931D59800A97F10 /* ZHTakePhotoViewController.m in Sources */,
+				F464B15B194DD7A00053F9EC /* ZHTimeLineCell.m in Sources */,
 				F45BD87B1931D25800A97F10 /* ZHTimeLineViewController.m in Sources */,
 				F4F9792019308F5B00F7FE81 /* DesginerCellV.m in Sources */,
 				F4F9791419308F5B00F7FE81 /* ZHPassDataJSON.m in Sources */,
@@ -959,8 +985,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: hui zeng (3ED55WY2DM)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: hui zeng (3ED55WY2DM)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "rmz/rmz-Prefix.pch";
 				INFOPLIST_FILE = "rmz/rmz-Info.plist";

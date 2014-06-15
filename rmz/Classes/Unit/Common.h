@@ -27,7 +27,7 @@
 #import "Theme.h"
 //
 #import "BaseViewController.h"
-
+#import "ZHAppDelegate.h"
 // 第三方
 #import "NSDate+Helper.h"
 #import "CCLog.h"

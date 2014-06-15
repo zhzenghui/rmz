@@ -32,6 +32,7 @@ PODS:
   - SDWebImage/Core (3.6)
   - SVProgressHUD (1.0)
   - SVPullToRefresh (0.4.1)
+  - TWMessageBarManager (1.7.0)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.2.4)
@@ -43,6 +44,7 @@ DEPENDENCIES:
   - SDWebImage (~> 3.6)
   - SVProgressHUD (~> 1.0)
   - SVPullToRefresh
+  - TWMessageBarManager (~> 1.7.0)
 
 SPEC CHECKSUMS:
   AFNetworking: ab63e259fe91eef4519b371ef0a4955af0e73e64
@@ -54,5 +56,6 @@ SPEC CHECKSUMS:
   SDWebImage: c6989652c1cdf27cbdf3f56957e2030f825af5bc
   SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
   SVPullToRefresh: d5161ebc833a38b465364412e5e307ca80bbb190
+  TWMessageBarManager: 427c1f2463b22f4048ea2663184d33644212be37
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.33.1

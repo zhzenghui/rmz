@@ -10,6 +10,7 @@
 #import "ZHUserViewController.h"
 #import "ZHLikeViewController.h"
 #import "ZHFollowingViewController.h"
+#import "InAppViewController.h"
 
 
 @interface ZHSettingViewController ()
@@ -33,7 +34,7 @@
 //    self.navigationController.navigationBarHidden = NO;
 
     self.title = @"info";
-    tView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, SCREEN_WIDTH, SCREEN_HEIGHT-20-50) style:UITableViewStyleGrouped];
+    tView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT-20-50) style:UITableViewStylePlain];
 
 //    tView.backgroundColor = [UIColor clearColor];
     tView.delegate = self;
@@ -41,7 +42,7 @@
 //    tView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
     [self.view addSubview:tView];
-    self.dataMArray = [NSMutableArray arrayWithArray: @[ @[@"喜欢", @"关注", @"我"] , @[@""]]];
+    self.dataMArray = [NSMutableArray arrayWithArray: @[ @[@"购买", @"兑换", @"喜欢", @"关注", @"我"] , @[@""]]];
     
 }
 
@@ -199,15 +200,20 @@
             switch (indexPath.row) {
                 case 0:
                 {
-                    bv = [[ZHLikeViewController alloc] init];
+                    bv = [[InAppViewController alloc] init];
                     break;
                 }
                 case 1:
                 {
-                    bv = [[ZHFollowingViewController alloc] init];
+                    bv = [[ZHLikeViewController alloc] init];
                     break;
                 }
                 case 2:
+                {
+                    bv = [[ZHFollowingViewController alloc] init];
+                    break;
+                }
+                case 3:
                 {
                     bv = [[ZHUserViewController alloc] init];
                     break;

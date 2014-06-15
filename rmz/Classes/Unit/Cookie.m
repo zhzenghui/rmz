@@ -19,7 +19,7 @@
         NSMutableDictionary *array = (NSMutableDictionary *)[KNSUserDefaults objectForKey:keyName];
         
         if (array == nil) {
-            array = [[NSMutableDictionary alloc] init];
+            array = nil;
         }
 		return array;
 	}

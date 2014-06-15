@@ -114,7 +114,7 @@
 {
     [super viewDidLoad];
 
-    [self addBackView];
+
 }
 
 - (void)viewDidAppear:(BOOL)animated

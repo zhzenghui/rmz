@@ -8,6 +8,11 @@
 
 #import "BaseViewController.h"
 
-@interface ZHTimeLineViewController : BaseViewController
+@interface ZHTimeLineViewController : BaseViewController<UITableViewDataSource, UITableViewDelegate>
+
+
+@property(nonatomic,retain) UITableView *tableView;
+
+
 
 @end

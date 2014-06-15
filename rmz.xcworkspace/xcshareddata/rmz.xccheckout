@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>C7DE1B0B-E024-4691-8E91-98F1E02A5D69</string>
+	<string>8DC58695-4830-454E-B793-ED25638C3745</string>
 	<key>IDESourceControlProjectName</key>
 	<string>rmz</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3668B721-EC1A-48DF-8844-7EA564F88DE6</key>
-		<string>https://github.com/zhzenghui/rmz-iOS.git</string>
+		<key>69242C19-AAFC-4C7A-8902-FEAB280F2B95</key>
+		<string>https://github.com/zhzenghui/rmz.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>rmz.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3668B721-EC1A-48DF-8844-7EA564F88DE6</key>
+		<key>69242C19-AAFC-4C7A-8902-FEAB280F2B95</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/zhzenghui/rmz-iOS.git</string>
+	<string>https://github.com/zhzenghui/rmz.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3668B721-EC1A-48DF-8844-7EA564F88DE6</string>
+	<string>69242C19-AAFC-4C7A-8902-FEAB280F2B95</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3668B721-EC1A-48DF-8844-7EA564F88DE6</string>
+			<string>69242C19-AAFC-4C7A-8902-FEAB280F2B95</string>
 			<key>IDESourceControlWCCName</key>
 			<string>rmz</string>
 		</dict>
